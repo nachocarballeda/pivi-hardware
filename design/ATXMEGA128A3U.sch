@@ -33,14 +33,15 @@ LIBS:Allegro_ACS759
 LIBS:acs712
 LIBS:txs0104e
 LIBS:less
+LIBS:pivi-shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 12
+Sheet 2 18
 Title "PIVI"
-Date "sáb 01 nov 2014"
-Rev "1.0"
+Date "Mon 27 Jul 2015"
+Rev "2.0"
 Comp "Copyright (C) LESS industries S.A. 2014,2015"
 Comment1 "Share alike attribution non-commercial 4.0"
 Comment2 "License: Creative Commons "
@@ -587,6 +588,45 @@ F 3 "" H 6350 5800 60  0000 C CNN
 	1    6350 5800
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR022
+U 1 1 54BF9940
+P 10450 2700
+F 0 "#PWR022" H 10450 2450 60  0001 C CNN
+F 1 "GND" H 10450 2550 60  0000 C CNN
+F 2 "" H 10450 2700 60  0000 C CNN
+F 3 "" H 10450 2700 60  0000 C CNN
+	1    10450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG023
+U 1 1 54C23958
+P 4315 6270
+F 0 "#FLG023" H 4315 6365 30  0001 C CNN
+F 1 "PWR_FLAG" H 4315 6450 30  0000 C CNN
+F 2 "" H 4315 6270 60  0000 C CNN
+F 3 "" H 4315 6270 60  0000 C CNN
+	1    4315 6270
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 54C243B5
+P 4315 7010
+F 0 "#PWR024" H 4315 6760 60  0001 C CNN
+F 1 "GND" H 4315 6860 60  0000 C CNN
+F 2 "" H 4315 7010 60  0000 C CNN
+F 3 "" H 4315 7010 60  0000 C CNN
+	1    4315 7010
+	1    0    0    -1  
+$EndComp
+Text Label 6600 5625 1    60   ~ 0
+GNDA
+Text Label 4580 6335 2    60   ~ 0
+GNDA
+Text Notes 4460 6910 0    60   ~ 0
+This Inductor should be placed\nnear PIN 60 of the Xmega
 Connection ~ 6300 5625
 Connection ~ 6200 5625
 Wire Wire Line
@@ -600,17 +640,17 @@ Wire Wire Line
 	6300 1300 6300 1950
 Connection ~ 4125 1300
 Wire Wire Line
-	4600 1725 4600 1800
+	4600 1675 4600 1800
 Wire Wire Line
-	4925 1800 4925 1725
+	4925 1675 4925 1800
 Wire Wire Line
-	5225 1800 5225 1725
+	5225 1675 5225 1800
 Wire Wire Line
-	5225 1300 5225 1325
+	5225 1300 5225 1375
 Wire Wire Line
-	4925 1300 4925 1325
+	4925 1300 4925 1375
 Wire Wire Line
-	4600 1250 4600 1325
+	4600 1250 4600 1375
 Wire Wire Line
 	6500 1300 6500 1950
 Connection ~ 6300 1300
@@ -628,7 +668,7 @@ Connection ~ 7400 1300
 Wire Wire Line
 	7400 1725 7400 1800
 Wire Wire Line
-	7700 1725 7700 1800
+	7700 1675 7700 1800
 Wire Wire Line
 	7275 1950 7275 1300
 Connection ~ 7275 1300
@@ -724,14 +764,14 @@ Wire Wire Line
 Wire Wire Line
 	9650 2700 10450 2700
 Wire Wire Line
-	5525 1800 5525 1725
+	5525 1675 5525 1800
 Wire Wire Line
-	5825 1800 5825 1725
+	5825 1675 5825 1800
 Wire Wire Line
-	5525 1325 5525 1300
+	5525 1300 5525 1375
 Connection ~ 5525 1300
 Wire Wire Line
-	5825 1325 5825 1300
+	5825 1300 5825 1375
 Connection ~ 5825 1300
 Wire Wire Line
 	6200 1950 6200 1300
@@ -770,12 +810,12 @@ Wire Wire Line
 Wire Wire Line
 	5000 3800 5350 3800
 Wire Wire Line
-	3825 4650 5350 4650
+	3775 4650 5350 4650
 Wire Wire Line
 	4000 4600 4000 4650
 Connection ~ 4000 4650
 Wire Wire Line
-	3825 3950 4300 3950
+	3775 3950 4300 3950
 Wire Wire Line
 	4000 3950 4000 4000
 Wire Wire Line
@@ -784,22 +824,22 @@ Wire Wire Line
 	4300 4550 5350 4550
 Connection ~ 4000 3950
 Wire Wire Line
-	3425 4650 3325 4650
+	3325 4650 3475 4650
 Wire Wire Line
 	3325 3950 3325 4900
 Wire Wire Line
-	3325 3950 3425 3950
+	3325 3950 3475 3950
 Connection ~ 3325 4650
 Wire Wire Line
-	7700 1300 7700 1325
+	7700 1300 7700 1375
 Wire Wire Line
-	5350 2250 4950 2250
+	4850 2250 5350 2250
 Wire Wire Line
 	10000 2400 10000 2150
 Wire Wire Line
-	8350 3400 8350 3450
+	8350 3400 8350 3550
 Wire Wire Line
-	8350 4600 8350 4550
+	8350 4450 8350 4600
 Wire Wire Line
 	8200 2600 8200 2150
 Wire Wire Line
@@ -807,7 +847,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2950 5000 2950
 Wire Wire Line
-	4125 1800 5825 1800
+	5825 1800 4125 1800
 Connection ~ 4925 1800
 Wire Wire Line
 	5225 1800 4925 1800
@@ -819,7 +859,7 @@ Connection ~ 10250 2700
 Wire Wire Line
 	9150 2600 8800 2600
 Wire Wire Line
-	4450 2250 4375 2250
+	4375 2250 4550 2250
 Wire Wire Line
 	6100 5400 6100 5625
 Wire Wire Line
@@ -834,43 +874,8 @@ Wire Wire Line
 	6600 5625 6600 5400
 Wire Wire Line
 	10250 2300 10250 2700
-$Comp
-L GND #PWR022
-U 1 1 54BF9940
-P 10450 2700
-F 0 "#PWR022" H 10450 2450 60  0001 C CNN
-F 1 "GND" H 10450 2550 60  0000 C CNN
-F 2 "" H 10450 2700 60  0000 C CNN
-F 3 "" H 10450 2700 60  0000 C CNN
-	1    10450 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG023
-U 1 1 54C23958
-P 4315 6270
-F 0 "#FLG023" H 4315 6365 30  0001 C CNN
-F 1 "PWR_FLAG" H 4315 6450 30  0000 C CNN
-F 2 "" H 4315 6270 60  0000 C CNN
-F 3 "" H 4315 6270 60  0000 C CNN
-	1    4315 6270
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR024
-U 1 1 54C243B5
-P 4315 7010
-F 0 "#PWR024" H 4315 6760 60  0001 C CNN
-F 1 "GND" H 4315 6860 60  0000 C CNN
-F 2 "" H 4315 7010 60  0000 C CNN
-F 3 "" H 4315 7010 60  0000 C CNN
-	1    4315 7010
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 5625 6100 5625
-Text Label 6600 5625 1    60   ~ 0
-GNDA
 Wire Wire Line
 	4315 6270 4315 6380
 Wire Wire Line
@@ -878,8 +883,25 @@ Wire Wire Line
 Wire Wire Line
 	4315 6335 4580 6335
 Connection ~ 4315 6335
-Text Label 4580 6335 2    60   ~ 0
-GNDA
-Text Notes 4460 6910 0    60   ~ 0
-This Inductor should be placed\nnear PIN 60 of the Xmega
+Wire Wire Line
+	8350 3850 8350 3950
+Wire Wire Line
+	8350 4150 8350 4050
+Wire Notes Line
+	9425 3125 9425 4825
+Wire Notes Line
+	9425 4825 8125 4825
+Wire Notes Line
+	8125 4825 8125 3125
+Wire Notes Line
+	8125 3125 9425 3125
+Text Notes 8125 4950 0    60   ~ 0
+REVISAR ESTE SECTOR, RECONECTE LAS COSAS\n
+Text HLabel 4920 2530 0    60   Input ~ 0
+RESET
+Wire Wire Line
+	4920 2530 5275 2530
+Wire Wire Line
+	5275 2530 5275 2250
+Connection ~ 5275 2250
 $EndSCHEMATC

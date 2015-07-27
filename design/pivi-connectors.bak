@@ -38,12 +38,12 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 12
+Sheet 3 18
 Title "PIVI"
-Date "sáb 01 nov 2014"
-Rev "1.0"
-Comp "LESS industries S.A."
-Comment1 "Share alike attribution non-commercial 3.0"
+Date "Mon 27 Jul 2015"
+Rev "2.0"
+Comp "Copyright (C) LESS industries S.A. 2014,2015"
+Comment1 "Share alike attribution non-commercial 4.0"
 Comment2 "License: Creative Commons "
 Comment3 "Connectors"
 Comment4 ""
@@ -51,436 +51,584 @@ $EndDescr
 $Comp
 L +5V #PWR025
 U 1 1 54959F0D
-P 7425 1625
-F 0 "#PWR025" H 7425 1715 20  0001 C CNN
-F 1 "+5V" H 7425 1750 30  0000 C CNN
-F 2 "" H 7425 1625 60  0000 C CNN
-F 3 "" H 7425 1625 60  0000 C CNN
-	1    7425 1625
+P 8390 1240
+F 0 "#PWR025" H 8390 1330 20  0001 C CNN
+F 1 "+5V" H 8390 1365 30  0000 C CNN
+F 2 "" H 8390 1240 60  0000 C CNN
+F 3 "" H 8390 1240 60  0000 C CNN
+	1    8390 1240
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C21
 U 1 1 54959F13
-P 7425 1850
-F 0 "C21" H 7425 1950 40  0000 L CNN
-F 1 "100nF" H 7431 1765 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7463 1700 30  0000 C CNN
-F 3 "" H 7425 1850 60  0000 C CNN
-	1    7425 1850
+P 8390 1465
+F 0 "C21" H 8390 1565 40  0000 L CNN
+F 1 "100nF" H 8396 1380 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8428 1315 30  0000 C CNN
+F 3 "" H 8390 1465 60  0000 C CNN
+	1    8390 1465
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6550 2950
-NoConn ~ 6050 2950
-Text Notes 5425 1375 0    120  ~ 0
+NoConn ~ 7515 2565
+NoConn ~ 7015 2565
+Text Notes 6390 990  0    120  ~ 0
 Raspberry pi B+ header
-NoConn ~ 6050 2750
-NoConn ~ 6050 2650
-NoConn ~ 6050 2550
-NoConn ~ 6550 2850
-NoConn ~ 6550 2750
-NoConn ~ 6550 2650
-NoConn ~ 6550 2450
-NoConn ~ 6550 2350
-NoConn ~ 6550 2150
-NoConn ~ 6550 3550
-NoConn ~ 6550 3450
-NoConn ~ 6550 3350
-NoConn ~ 6550 3150
-NoConn ~ 6050 3450
-NoConn ~ 6050 3350
-NoConn ~ 6050 3250
-NoConn ~ 6050 3150
-NoConn ~ 6050 3050
-NoConn ~ 6050 2350
-NoConn ~ 6050 2250
-NoConn ~ 6050 2150
-Text Notes 1150 1750 0    60   ~ 0
+NoConn ~ 7015 2365
+NoConn ~ 7015 2265
+NoConn ~ 7015 2165
+NoConn ~ 7515 2465
+NoConn ~ 7515 2365
+NoConn ~ 7515 3165
+NoConn ~ 7515 3065
+NoConn ~ 7515 2965
+NoConn ~ 7015 3065
+NoConn ~ 7015 2965
+NoConn ~ 7015 2865
+NoConn ~ 7015 2765
+NoConn ~ 7015 2665
+NoConn ~ 7015 1965
+NoConn ~ 7015 1865
+NoConn ~ 7015 1765
+Text Notes 6880 4925 0    60   ~ 0
 Power line Input.\nFrom circuit breakers.
-Text Notes 3175 1725 0    60   ~ 0
-Power line output.\nTo load.
 $Comp
 L +5V #PWR026
 U 1 1 54959F4A
-P 3000 4675
-F 0 "#PWR026" H 3000 4765 20  0001 C CNN
-F 1 "+5V" H 3000 4800 30  0000 C CNN
-F 2 "" H 3000 4675 60  0000 C CNN
-F 3 "" H 3000 4675 60  0000 C CNN
-	1    3000 4675
+P 3000 5270
+F 0 "#PWR026" H 3000 5360 20  0001 C CNN
+F 1 "+5V" H 3000 5395 30  0000 C CNN
+F 2 "" H 3000 5270 60  0000 C CNN
+F 3 "" H 3000 5270 60  0000 C CNN
+	1    3000 5270
 	-1   0    0    1   
 $EndComp
-Text Notes 1125 1375 0    120  ~ 0
+Text Notes 6595 4495 0    120  ~ 0
 Power Line Connections
 $Comp
 L R R9
 U 1 1 54959F58
-P 4425 4975
-F 0 "R9" V 4505 4975 40  0000 C CNN
-F 1 "470" V 4432 4976 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4355 4975 30  0000 C CNN
-F 3 "" H 4425 4975 30  0000 C CNN
-	1    4425 4975
+P 4425 5570
+F 0 "R9" V 4505 5570 40  0000 C CNN
+F 1 "470" V 4432 5571 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4355 5570 30  0000 C CNN
+F 3 "" H 4425 5570 30  0000 C CNN
+	1    4425 5570
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_02X20 P9
 U 1 1 54959FCF
-P 6300 2600
-F 0 "P9" H 6300 3650 50  0000 C CNN
-F 1 "CONN_02X20" V 6300 2600 50  0000 C CNN
-F 2 "LESS:Pin_Header_Straight_2x20_SMD" H 6800 1500 60  0000 C CNN
-F 3 "" H 6300 1650 60  0000 C CNN
-	1    6300 2600
+P 7265 2215
+F 0 "P9" H 7265 3265 50  0000 C CNN
+F 1 "CONN_02X20" V 7265 2215 50  0000 C CNN
+F 2 "LESS:Pin_Header_Straight_2x20_SMD" H 7765 1115 60  0000 C CNN
+F 3 "" H 7265 1265 60  0000 C CNN
+	1    7265 2215
 	1    0    0    -1  
 $EndComp
-Text Notes 3300 4725 0    60   ~ 0
+Text Notes 3300 5320 0    60   ~ 0
 System powered LED
-NoConn ~ 6050 1950
-NoConn ~ 6050 1650
-NoConn ~ 6050 2450
-Text Notes 700  7650 0    60   ~ 0
+NoConn ~ 7015 1565
+NoConn ~ 7015 1265
+NoConn ~ 7015 2065
+Text Notes 1100 7025 0    60   ~ 0
 Raspberry Header source:\nhttp://www.raspberrypi.org/wp-content/uploads/2014/04/bplus-gpio.png
-Text Notes 1250 3850 0    120  ~ 0
+Text Notes 1250 4445 0    120  ~ 0
 Board power Supply Connections
-Text HLabel 1750 2825 2    60   Output ~ 0
-Phase1_In
-Text HLabel 1750 1925 2    60   Output ~ 0
-Phase2_In
-Text HLabel 1750 2025 2    60   Output ~ 0
-Phase3_In
-Text HLabel 1750 2925 2    60   Output ~ 0
-Neutral1_In
-Text HLabel 1750 2125 2    60   Output ~ 0
-Phase4_In
-Text HLabel 1750 2225 2    60   Output ~ 0
-Phase5_In
-Text HLabel 1750 2325 2    60   Output ~ 0
-Phase6_In
-Text HLabel 3575 2825 2    60   Input ~ 0
-Phase1_Out
-Text HLabel 3575 1925 2    60   Input ~ 0
-Phase2_Out
-Text HLabel 3575 2025 2    60   Input ~ 0
-Phase3_Out
-Text HLabel 3575 2925 2    60   Input ~ 0
-Neutral1_Out
-Text HLabel 3575 2125 2    60   Input ~ 0
-Phase4_Out
-Text HLabel 3575 2225 2    60   Input ~ 0
-Phase5_Out
-Text HLabel 3575 2325 2    60   Input ~ 0
-Phase6_Out
-Text Label 1400 2825 0    60   ~ 0
+Text HLabel 7475 5230 2    60   Output ~ 0
+Phase_In
+Text HLabel 7475 5330 2    60   Output ~ 0
+Neutral_Line
+Text Label 7125 5230 0    60   ~ 0
 220V
-Text Label 1400 2925 0    60   ~ 0
+Text Label 7125 5330 0    60   ~ 0
 N
-Text Label 1300 4575 2    60   ~ 0
+Text Label 1300 5170 2    60   ~ 0
 220V
-Text Label 1300 4475 2    60   ~ 0
+Text Label 1300 5070 2    60   ~ 0
 N
-Text HLabel 5800 1750 0    60   BiDi ~ 0
+Text HLabel 6765 1365 0    60   BiDi ~ 0
 SDA1
-Text HLabel 5800 1850 0    60   Input ~ 0
+Text HLabel 6765 1465 0    60   Input ~ 0
 SCL1
-Text HLabel 6875 1950 2    60   Output ~ 0
+Text HLabel 7840 1565 2    60   Output ~ 0
 TXD0
-Text HLabel 6875 2050 2    60   Input ~ 0
+Text HLabel 7840 1665 2    60   Input ~ 0
 RXD0
 $Comp
 L CONN_01X02 P6
 U 1 1 548F28AD
-P 1150 5475
-F 0 "P6" H 1150 5625 50  0000 C CNN
-F 1 "CONN_01X02" V 1250 5475 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" V 1350 5475 60  0000 C CNN
-F 3 "" H 1150 5475 60  0000 C CNN
-	1    1150 5475
+P 1150 6070
+F 0 "P6" H 1150 6220 50  0000 C CNN
+F 1 "CONN_01X02" V 1250 6070 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" V 1350 6070 60  0000 C CNN
+F 3 "" H 1150 6070 60  0000 C CNN
+	1    1150 6070
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED D1
 U 1 1 548F2F70
-P 3675 4575
-F 0 "D1" H 3675 4675 50  0000 C CNN
-F 1 "LED" H 3800 4675 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 3850 4775 60  0000 C CNN
-F 3 "" H 3675 4575 60  0000 C CNN
-	1    3675 4575
+P 3675 5170
+F 0 "D1" H 3675 5270 50  0000 C CNN
+F 1 "LED" H 3800 5270 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 3850 5370 60  0000 C CNN
+F 3 "" H 3675 5170 60  0000 C CNN
+	1    3675 5170
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6550 1950 6875 1950
-Wire Wire Line
-	5800 1850 6050 1850
-Wire Wire Line
-	5800 1750 6050 1750
-Wire Wire Line
-	6550 2050 6875 2050
-Connection ~ 5900 3550
-Wire Wire Line
-	5900 3550 6050 3550
-Connection ~ 5900 2850
-Wire Wire Line
-	6050 2850 5900 2850
-Wire Wire Line
-	6050 2050 5900 2050
-Connection ~ 6625 1650
-Wire Wire Line
-	6550 1650 7425 1650
-Wire Wire Line
-	6625 1750 6550 1750
-Wire Wire Line
-	1400 2025 1750 2025
-Wire Wire Line
-	1400 1925 1750 1925
-Wire Wire Line
-	1400 2125 1750 2125
-Wire Wire Line
-	1400 2925 1750 2925
-Wire Wire Line
-	3425 2025 3575 2025
-Wire Wire Line
-	3425 1925 3575 1925
-Wire Wire Line
-	3425 2125 3575 2125
-Wire Wire Line
-	3425 2925 3575 2925
-Wire Wire Line
-	1400 2325 1750 2325
-Wire Wire Line
-	1400 2225 1750 2225
-Wire Wire Line
-	1400 2825 1750 2825
-Wire Wire Line
-	3425 2325 3575 2325
-Wire Wire Line
-	3425 2225 3575 2225
-Wire Wire Line
-	3425 2825 3575 2825
-Wire Wire Line
-	2625 4575 2625 4675
-Wire Wire Line
-	6725 1850 6725 3300
-Wire Wire Line
-	6625 1750 6625 1650
-Wire Wire Line
-	7425 2050 7425 2075
-Wire Wire Line
-	7425 1650 7425 1625
-Wire Wire Line
-	6550 1850 6725 1850
-Wire Wire Line
-	6550 2250 6725 2250
-Connection ~ 6725 2250
-Wire Wire Line
-	6550 2550 6725 2550
-Connection ~ 6725 2550
-Wire Wire Line
-	6550 3050 6725 3050
-Connection ~ 6725 3050
-Wire Wire Line
-	6550 3250 6725 3250
-Connection ~ 6725 3250
-Text Label 3475 2925 0    60   ~ 0
-N
-Wire Wire Line
-	2600 4575 2625 4575
-Connection ~ 3375 4575
-Wire Wire Line
-	3875 4575 4425 4575
-Wire Wire Line
-	4425 4575 4425 4725
-Wire Wire Line
-	4425 5225 4425 5275
-Wire Wire Line
-	5900 2050 5900 3700
 $Comp
 L INDUCTOR L15
 U 1 1 54C27524
-P 1700 4475
-F 0 "L15" V 1800 4225 40  0000 C CNN
-F 1 "1u" V 1800 4475 40  0000 C CNN
-F 2 "SMD_Packages:SMD-0603" H 1700 4475 60  0001 C CNN
-F 3 "" H 1700 4475 60  0000 C CNN
-	1    1700 4475
+P 1700 5070
+F 0 "L15" V 1800 4820 40  0000 C CNN
+F 1 "1u" V 1800 5070 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603" H 1700 5070 60  0001 C CNN
+F 3 "" H 1700 5070 60  0000 C CNN
+	1    1700 5070
 	0    -1   -1   0   
 $EndComp
 $Comp
 L INDUCTOR L16
 U 1 1 54C275D2
-P 1700 4575
-F 0 "L16" V 1800 4800 40  0000 C CNN
-F 1 "1u" V 1800 4575 40  0000 C CNN
-F 2 "SMD_Packages:SMD-0603" H 1700 4575 60  0001 C CNN
-F 3 "" H 1700 4575 60  0000 C CNN
-	1    1700 4575
+P 1700 5170
+F 0 "L16" V 1800 5395 40  0000 C CNN
+F 1 "1u" V 1800 5170 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603" H 1700 5170 60  0001 C CNN
+F 3 "" H 1700 5170 60  0000 C CNN
+	1    1700 5170
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2000 4475 2100 4475
-Wire Wire Line
-	2100 4575 2000 4575
-Wire Wire Line
-	1300 4475 1400 4475
-Wire Wire Line
-	1300 4575 1400 4575
 $Comp
 L GND #PWR027
 U 1 1 54BFA08A
-P 7425 2075
-F 0 "#PWR027" H 7425 1825 60  0001 C CNN
-F 1 "GND" H 7425 1925 60  0000 C CNN
-F 2 "" H 7425 2075 60  0000 C CNN
-F 3 "" H 7425 2075 60  0000 C CNN
-	1    7425 2075
+P 8390 1690
+F 0 "#PWR027" H 8390 1440 60  0001 C CNN
+F 1 "GND" H 8390 1540 60  0000 C CNN
+F 2 "" H 8390 1690 60  0000 C CNN
+F 3 "" H 8390 1690 60  0000 C CNN
+	1    8390 1690
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR028
 U 1 1 54BFA09E
-P 6725 3300
-F 0 "#PWR028" H 6725 3050 60  0001 C CNN
-F 1 "GND" H 6725 3150 60  0000 C CNN
-F 2 "" H 6725 3300 60  0000 C CNN
-F 3 "" H 6725 3300 60  0000 C CNN
-	1    6725 3300
+P 7690 2915
+F 0 "#PWR028" H 7690 2665 60  0001 C CNN
+F 1 "GND" H 7690 2765 60  0000 C CNN
+F 2 "" H 7690 2915 60  0000 C CNN
+F 3 "" H 7690 2915 60  0000 C CNN
+	1    7690 2915
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR029
 U 1 1 54BFA0B2
-P 5900 3700
-F 0 "#PWR029" H 5900 3450 60  0001 C CNN
-F 1 "GND" H 5900 3550 60  0000 C CNN
-F 2 "" H 5900 3700 60  0000 C CNN
-F 3 "" H 5900 3700 60  0000 C CNN
-	1    5900 3700
+P 6865 3315
+F 0 "#PWR029" H 6865 3065 60  0001 C CNN
+F 1 "GND" H 6865 3165 60  0000 C CNN
+F 2 "" H 6865 3315 60  0000 C CNN
+F 3 "" H 6865 3315 60  0000 C CNN
+	1    6865 3315
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR030
 U 1 1 54BFA0C6
-P 4425 5275
-F 0 "#PWR030" H 4425 5025 60  0001 C CNN
-F 1 "GND" H 4425 5125 60  0000 C CNN
-F 2 "" H 4425 5275 60  0000 C CNN
-F 3 "" H 4425 5275 60  0000 C CNN
-	1    4425 5275
+P 4425 5870
+F 0 "#PWR030" H 4425 5620 60  0001 C CNN
+F 1 "GND" H 4425 5720 60  0000 C CNN
+F 2 "" H 4425 5870 60  0000 C CNN
+F 3 "" H 4425 5870 60  0000 C CNN
+	1    4425 5870
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR031
 U 1 1 54BFA203
-P 2625 4675
-F 0 "#PWR031" H 2625 4425 60  0001 C CNN
-F 1 "GND" H 2625 4525 60  0000 C CNN
-F 2 "" H 2625 4675 60  0000 C CNN
-F 3 "" H 2625 4675 60  0000 C CNN
-	1    2625 4675
+P 2625 5270
+F 0 "#PWR031" H 2625 5020 60  0001 C CNN
+F 1 "GND" H 2625 5120 60  0000 C CNN
+F 2 "" H 2625 5270 60  0000 C CNN
+F 3 "" H 2625 5270 60  0000 C CNN
+	1    2625 5270
 	1    0    0    -1  
 $EndComp
-Text Notes 950  6175 0    60   ~ 0
+Text Notes 1085 6770 0    60   ~ 0
 Alternative 5V power supply \nfor using when powering \nthe board externally.
 $Comp
 L GND #PWR032
 U 1 1 54C181FB
-P 1350 5625
-F 0 "#PWR032" H 1350 5375 60  0001 C CNN
-F 1 "GND" H 1350 5475 60  0000 C CNN
-F 2 "" H 1350 5625 60  0000 C CNN
-F 3 "" H 1350 5625 60  0000 C CNN
-	1    1350 5625
+P 1350 6220
+F 0 "#PWR032" H 1350 5970 60  0001 C CNN
+F 1 "GND" H 1350 6070 60  0000 C CNN
+F 2 "" H 1350 6220 60  0000 C CNN
+F 3 "" H 1350 6220 60  0000 C CNN
+	1    1350 6220
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1350 5525 1350 5625
-Wire Wire Line
-	1350 5425 1450 5425
 $Comp
 L JUMPER3 JP1
 U 1 1 54C1890C
-P 3000 4475
-F 0 "JP1" H 2825 4400 40  0000 L CNN
-F 1 "JUMPER3" H 3000 4575 40  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 3000 4475 60  0001 C CNN
-F 3 "" H 3000 4475 60  0000 C CNN
-	1    3000 4475
+P 3000 5070
+F 0 "JP1" H 2825 4995 40  0000 L CNN
+F 1 "JUMPER3" H 3000 5170 40  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 3000 5070 60  0001 C CNN
+F 3 "" H 3000 5070 60  0000 C CNN
+	1    3000 5070
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 4575 3475 4575
-Wire Wire Line
-	3000 4575 3000 4675
-Wire Wire Line
-	2750 4475 2600 4475
-Text Label 1450 5425 0    60   ~ 0
+Text Label 1450 6020 0    60   ~ 0
 Alternative_5V_input
-Wire Wire Line
-	3250 4475 3250 4100
-Text Label 3250 4100 0    60   ~ 0
+Text Label 3250 4695 0    60   ~ 0
 Alternative_5V_input
-Text Notes 2550 5550 0    60   ~ 0
+Text Notes 2550 6145 0    60   ~ 0
 If the jumper is between the main \npower supply and the center point, \nthe board is powered from 220V \nline. If jumper is between alternative \n5V input and the center point, then \nmain power supply is not connected \nand the board is powered externally.
-Text Notes 1075 4875 0    60   ~ 0
+Text Notes 1075 5470 0    60   ~ 0
 Place inductors close to the \npower supply.
 $Comp
 L CONN_01X02 P4
 U 1 1 54C3B67F
-P 1200 2875
-F 0 "P4" H 1200 3025 50  0000 C CNN
-F 1 "CONN_01X02" V 1300 2875 50  0000 C CNN
-F 2 "LESS:CONN-TERM-BLK-2POS-PHOENIX" H 1200 2875 60  0001 C CNN
-F 3 "" H 1200 2875 60  0000 C CNN
-	1    1200 2875
+P 6925 5280
+F 0 "P4" H 6925 5430 50  0000 C CNN
+F 1 "CONN_01X02" V 7025 5280 50  0000 C CNN
+F 2 "LESS:CONN-TERM-BLK-2POS-PHOENIX" H 6925 5280 60  0001 C CNN
+F 3 "" H 6925 5280 60  0000 C CNN
+	1    6925 5280
 	-1   0    0    -1  
 $EndComp
-$Comp
-L CONN_01X02 P8
-U 1 1 54C3B71C
-P 3225 2875
-F 0 "P8" H 3225 3025 50  0000 C CNN
-F 1 "CONN_01X02" V 3325 2875 50  0000 C CNN
-F 2 "LESS:CONN-TERM-BLK-2POS-PHOENIX" H 3225 2875 60  0001 C CNN
-F 3 "" H 3225 2875 60  0000 C CNN
-	1    3225 2875
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X05 P3
-U 1 1 54C3B760
-P 1200 2125
-F 0 "P3" H 1200 2425 50  0000 C CNN
-F 1 "CONN_01X05" V 1300 2125 50  0000 C CNN
-F 2 "LESS:CONN-TERM-BLK-5POS-PHOENIX" H 1200 2125 60  0001 C CNN
-F 3 "" H 1200 2125 60  0000 C CNN
-	1    1200 2125
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X05 P7
-U 1 1 54C3B7D3
-P 3225 2125
-F 0 "P7" H 3225 2425 50  0000 C CNN
-F 1 "CONN_01X05" V 3325 2125 50  0000 C CNN
-F 2 "LESS:CONN-TERM-BLK-5POS-PHOENIX" H 3225 2125 60  0001 C CNN
-F 3 "" H 3225 2125 60  0000 C CNN
-	1    3225 2125
-	-1   0    0    1   
-$EndComp
-Text Notes 1025 3175 1    60   ~ 0
-277-9758-ND
-Text Notes 1025 2425 1    60   ~ 0
-277-9761-ND
 $Comp
 L Recom_Power_RAC10-05SC/277 P1
 U 1 1 54C3C5E9
-P 2350 4525
-F 0 "P1" H 2350 4675 50  0000 C CNN
-F 1 "Recom_Power_RAC10-05SC/277" H 2350 4775 50  0000 C CNN
-F 2 "LESS:RAC10-xxSC-277" H 2350 4875 60  0000 C CNN
-F 3 "" H 2350 3325 60  0000 C CNN
-	1    2350 4525
+P 2350 5120
+F 0 "P1" H 2350 5270 50  0000 C CNN
+F 1 "Recom_Power_RAC10-05SC/277" H 2350 5370 50  0000 C CNN
+F 2 "LESS:RAC10-xxSC-277" H 2350 5470 60  0000 C CNN
+F 3 "" H 2350 3920 60  0000 C CNN
+	1    2350 5120
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7515 1565 7840 1565
+Wire Wire Line
+	6765 1465 7015 1465
+Wire Wire Line
+	6765 1365 7015 1365
+Wire Wire Line
+	7515 1665 7840 1665
+Connection ~ 6865 3165
+Wire Wire Line
+	6865 3165 7015 3165
+Connection ~ 6865 2465
+Wire Wire Line
+	7015 2465 6865 2465
+Wire Wire Line
+	7015 1665 6865 1665
+Connection ~ 7590 1265
+Wire Wire Line
+	7515 1265 8390 1265
+Wire Wire Line
+	7590 1365 7515 1365
+Wire Wire Line
+	7125 5330 7475 5330
+Wire Wire Line
+	7125 5230 7475 5230
+Wire Wire Line
+	2625 5170 2625 5270
+Wire Wire Line
+	7690 1465 7690 2915
+Wire Wire Line
+	7590 1365 7590 1265
+Wire Wire Line
+	8390 1615 8390 1690
+Wire Wire Line
+	8390 1240 8390 1315
+Wire Wire Line
+	7515 1465 7690 1465
+Wire Wire Line
+	7515 1865 7690 1865
+Connection ~ 7690 1865
+Wire Wire Line
+	7515 2165 7690 2165
+Connection ~ 7690 2165
+Wire Wire Line
+	7515 2665 7690 2665
+Connection ~ 7690 2665
+Wire Wire Line
+	7515 2865 7690 2865
+Connection ~ 7690 2865
+Wire Wire Line
+	2600 5170 2625 5170
+Connection ~ 3375 5170
+Wire Wire Line
+	3875 5170 4425 5170
+Wire Wire Line
+	4425 5170 4425 5420
+Wire Wire Line
+	4425 5720 4425 5870
+Wire Wire Line
+	6865 1665 6865 3315
+Wire Wire Line
+	2000 5070 2100 5070
+Wire Wire Line
+	2100 5170 2000 5170
+Wire Wire Line
+	1300 5070 1400 5070
+Wire Wire Line
+	1300 5170 1400 5170
+Wire Wire Line
+	1350 6120 1350 6220
+Wire Wire Line
+	1350 6020 1450 6020
+Wire Wire Line
+	3000 5170 3475 5170
+Wire Wire Line
+	3000 5170 3000 5270
+Wire Wire Line
+	2750 5070 2600 5070
+Wire Wire Line
+	3250 5070 3250 4695
+Connection ~ 8390 1265
+Text Notes 1100 1625 0    60   ~ 0
+Audio Jack 3.5 mm female connector\n
+Text Notes 3600 1625 2    60   ~ 0
+SJ-3506-SMT 
+Text Notes 1075 1400 0    60   ~ 0
+This connector must meet the following requirements:\n* Internal switch : Avoids noise in pins when  the clamp is unplugged.\n* Shielded : Increase endurance, stregth and avoid noise.
+Text Notes 1050 1000 0    120  ~ 0
+Clamp  audio connections for SCT-013-000
+$Sheet
+S 1450 1865 740  685 
+U 55B659F5
+F0 "CT1" 60
+F1 "SCT-013-000.sch" 60
+F2 "CT_1" I L 1450 2125 60 
+F3 "CT_2" I L 1450 2250 60 
+F4 "CT_DETECTOR" I L 1450 2000 60 
+$EndSheet
+Text Notes 6740 5610 1    60   ~ 0
+277-9758-ND
+Text HLabel 1300 2000 0    60   Input ~ 0
+CT1_DETECTOR
+Wire Wire Line
+	1300 2000 1450 2000
+Text HLabel 1300 2125 0    60   Input ~ 0
+CT1_1
+Text HLabel 1300 2250 0    60   Input ~ 0
+CT1_2
+Wire Wire Line
+	1300 2125 1450 2125
+Wire Wire Line
+	1450 2250 1300 2250
+$Sheet
+S 3375 1865 740  685 
+U 55B37AF3
+F0 "CT2" 60
+F1 "SCT-013-000.sch" 60
+F2 "CT_1" I L 3375 2125 60 
+F3 "CT_2" I L 3375 2250 60 
+F4 "CT_DETECTOR" I L 3375 2000 60 
+$EndSheet
+Text HLabel 3225 2000 0    60   Input ~ 0
+CT2_DETECTOR
+Wire Wire Line
+	3225 2000 3375 2000
+Text HLabel 3225 2125 0    60   Input ~ 0
+CT2_1
+Text HLabel 3225 2250 0    60   Input ~ 0
+CT2_2
+Wire Wire Line
+	3225 2125 3375 2125
+Wire Wire Line
+	3375 2250 3225 2250
+$Sheet
+S 5300 1865 740  685 
+U 55B38046
+F0 "CT3" 60
+F1 "SCT-013-000.sch" 60
+F2 "CT_1" I L 5300 2125 60 
+F3 "CT_2" I L 5300 2250 60 
+F4 "CT_DETECTOR" I L 5300 2000 60 
+$EndSheet
+Text HLabel 5150 2000 0    60   Input ~ 0
+CT3_DETECTOR
+Wire Wire Line
+	5150 2000 5300 2000
+Text HLabel 5150 2125 0    60   Input ~ 0
+CT3_1
+Text HLabel 5150 2250 0    60   Input ~ 0
+CT3_2
+Wire Wire Line
+	5150 2125 5300 2125
+Wire Wire Line
+	5300 2250 5150 2250
+$Sheet
+S 1475 2990 740  685 
+U 55B38E62
+F0 "CT4" 60
+F1 "SCT-013-000.sch" 60
+F2 "CT_1" I L 1475 3250 60 
+F3 "CT_2" I L 1475 3375 60 
+F4 "CT_DETECTOR" I L 1475 3125 60 
+$EndSheet
+Text HLabel 1325 3125 0    60   Input ~ 0
+CT4_DETECTOR
+Wire Wire Line
+	1325 3125 1475 3125
+Text HLabel 1325 3250 0    60   Input ~ 0
+CT4_1
+Text HLabel 1325 3375 0    60   Input ~ 0
+CT4_2
+Wire Wire Line
+	1325 3250 1475 3250
+Wire Wire Line
+	1475 3375 1325 3375
+$Sheet
+S 3400 2990 740  685 
+U 55B38E6D
+F0 "CT5" 60
+F1 "SCT-013-000.sch" 60
+F2 "CT_1" I L 3400 3250 60 
+F3 "CT_2" I L 3400 3375 60 
+F4 "CT_DETECTOR" I L 3400 3125 60 
+$EndSheet
+Text HLabel 3250 3125 0    60   Input ~ 0
+CT5_DETECTOR
+Wire Wire Line
+	3250 3125 3400 3125
+Text HLabel 3250 3250 0    60   Input ~ 0
+CT5_1
+Text HLabel 3250 3375 0    60   Input ~ 0
+CT5_2
+Wire Wire Line
+	3250 3250 3400 3250
+Wire Wire Line
+	3400 3375 3250 3375
+$Sheet
+S 5325 2990 740  685 
+U 55B38E78
+F0 "CT6" 60
+F1 "SCT-013-000.sch" 60
+F2 "CT_1" I L 5325 3250 60 
+F3 "CT_2" I L 5325 3375 60 
+F4 "CT_DETECTOR" I L 5325 3125 60 
+$EndSheet
+Text HLabel 5175 3125 0    60   Input ~ 0
+CT6_DETECTOR
+Wire Wire Line
+	5175 3125 5325 3125
+Text HLabel 5175 3250 0    60   Input ~ 0
+CT6_1
+Text HLabel 5175 3375 0    60   Input ~ 0
+CT6_2
+Wire Wire Line
+	5175 3250 5325 3250
+Wire Wire Line
+	5325 3375 5175 3375
+Wire Wire Line
+	7515 1765 7840 1765
+Text HLabel 7840 1765 2    60   Input ~ 0
+GPIO-18
+Wire Wire Line
+	7515 1965 7840 1965
+Text HLabel 7840 1965 2    60   Input ~ 0
+GPIO-23
+$Comp
+L LED_RGB D?
+U 1 1 55BA51D0
+P 8540 2390
+F 0 "D?" H 8540 2840 50  0000 C CNN
+F 1 "LED_RGB" H 8540 2740 50  0000 C CNN
+F 2 "" H 8540 2340 60  0000 C CNN
+F 3 "" H 8540 2340 60  0000 C CNN
+	1    8540 2390
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 55BA6452
+P 9040 2190
+F 0 "R?" V 9120 2190 50  0000 C CNN
+F 1 "270" V 9040 2190 50  0000 C CNN
+F 2 "" V 8970 2190 30  0000 C CNN
+F 3 "" H 9040 2190 30  0000 C CNN
+	1    9040 2190
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 55BA6613
+P 9040 2390
+F 0 "R?" V 9120 2390 50  0000 C CNN
+F 1 "270" V 9040 2390 50  0000 C CNN
+F 2 "" V 8970 2390 30  0000 C CNN
+F 3 "" H 9040 2390 30  0000 C CNN
+	1    9040 2390
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 55BA674E
+P 9040 2590
+F 0 "R?" V 9120 2590 50  0000 C CNN
+F 1 "270" V 9040 2590 50  0000 C CNN
+F 2 "" V 8970 2590 30  0000 C CNN
+F 3 "" H 9040 2590 30  0000 C CNN
+	1    9040 2590
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8840 2190 8890 2190
+Wire Wire Line
+	8840 2390 8890 2390
+Wire Wire Line
+	8840 2590 8890 2590
+Wire Wire Line
+	7790 2190 8240 2190
+Wire Wire Line
+	7790 2390 8240 2390
+Wire Wire Line
+	7815 2590 8240 2590
+Wire Wire Line
+	7515 2765 7815 2765
+Wire Wire Line
+	7815 2765 7815 2590
+Wire Wire Line
+	7515 2065 7790 2065
+Wire Wire Line
+	7790 2065 7790 2190
+Wire Wire Line
+	7515 2265 7790 2265
+Wire Wire Line
+	7790 2265 7790 2390
+Text Label 7915 2190 0    60   ~ 0
+GPIO-24
+Text Label 7915 2390 0    60   ~ 0
+GPIO-25
+Text Label 7915 2590 0    60   ~ 0
+GPIO-12
+Wire Wire Line
+	9190 2190 9440 2190
+Wire Wire Line
+	9440 2190 9440 2915
+$Comp
+L GND #PWR?
+U 1 1 55BA8447
+P 9440 2915
+F 0 "#PWR?" H 9440 2665 60  0001 C CNN
+F 1 "GND" H 9440 2765 60  0000 C CNN
+F 2 "" H 9440 2915 60  0000 C CNN
+F 3 "" H 9440 2915 60  0000 C CNN
+	1    9440 2915
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9190 2390 9440 2390
+Connection ~ 9440 2390
+Wire Wire Line
+	9190 2590 9440 2590
+Connection ~ 9440 2590
+Text Notes 8815 1790 0    60   ~ 0
+The GPIO pins can draw 50mA safely, distributed\nacross all the pins; an individual GPIO pin can \nonly safely draw 16mA. \n\nhttps://www.raspberrypi.org/documentation/hardw
 $EndSCHEMATC

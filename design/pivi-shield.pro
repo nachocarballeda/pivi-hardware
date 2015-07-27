@@ -1,4 +1,4 @@
-update=sáb 24 ene 2015 16:34:56 ART
+update=Wed 22 Jul 2015 06:45:17 PM ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -42,7 +42,7 @@ RptLab=1
 LabSize=60
 [eeschema]
 version=1
-LibDir=../libs
+LibDir=../libs;../../../gclass_amplifier/pcb.pretty;../../../gclass_amplifier/pcb transistores
 [eeschema/libraries]
 LibName1=power
 LibName2=device

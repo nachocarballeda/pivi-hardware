@@ -1,0 +1,147 @@
+
+(rules PCB pivi-shield
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 98)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.8)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 203.2)
+    (clear 381.2)
+    (clear 101.6 (type smd_to_turn_gap))
+    (clear 1270.2 (type default_220v))
+    (clear 1270.2 (type default_"220v low current"))
+    (clear 95.4 (type smd_smd))
+    (clear 1270.2 (type smd_220v))
+    (clear 1270.2 (type smd_"220v low current"))
+    (clear 1270.2 (type "kicad_default"_220v))
+    (clear 1270.2 (type "kicad_default"_"220v low current"))
+    (clear 1270.2 (type 220v_220v))
+    (clear 1270.2 (type 220v_"220v low current"))
+    (clear 1270.2 (type 220v_micro))
+    (clear 1270.2 (type "220v low current"_"220v low current"))
+    (clear 1270.2 (type "220v low current"_micro))
+  )
+  (padstack "Via[0-1]_508:381_um"
+    (shape
+      (circle F.Cu 508.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 508.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_508:381_um" "Via[0-1]_508:381_um" default
+  )
+  (via 
+    "Via[0-1]_508:381_um-kicad_default" "Via[0-1]_508:381_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_508:381_um-220v" "Via[0-1]_508:381_um" 220v
+  )
+  (via 
+    "Via[0-1]_508:381_um-220v low current" "Via[0-1]_508:381_um" "220v low current"
+  )
+  (via 
+    "Via[0-1]_508:381_um-micro" "Via[0-1]_508:381_um" micro
+  )
+  (via_rule
+    default "Via[0-1]_508:381_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_508:381_um-kicad_default"
+  )
+  (via_rule
+    220v "Via[0-1]_508:381_um-220v"
+  )
+  (via_rule
+    "220v low current" "Via[0-1]_508:381_um-220v low current"
+  )
+  (via_rule
+    micro "Via[0-1]_508:381_um-micro"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(C1-Pad1)" "Net-(C2-Pad1)" +5V "Net-(C22-Pad1)" "Net-(C27-Pad1)" "Net-(C32-Pad1)" "Net-(C37-Pad1)" "Net-(C42-Pad1)"
+    "Net-(C47-Pad1)" "Net-(D1-Pad2)" "Net-(JP2-Pad2)" "Net-(L3-Pad1)" "Net-(L4-Pad1)" "Net-(L5-Pad1)" "Net-(L6-Pad1)" "Net-(L7-Pad1)"
+    "Net-(L8-Pad1)" "Net-(R10-Pad1)" "Net-(R11-Pad1)" "Net-(R16-Pad2)" "Net-(R20-Pad1)" "Net-(R21-Pad1)" "Net-(R26-Pad2)" "Net-(R30-Pad1)"
+    "Net-(R31-Pad1)" "Net-(R36-Pad2)" "Net-(R40-Pad1)" "Net-(R41-Pad1)" "Net-(R46-Pad2)" "Net-(R50-Pad1)" "Net-(R51-Pad1)" "Net-(R56-Pad2)"
+    "Net-(R60-Pad1)" "Net-(R61-Pad1)" "Net-(R66-Pad2)" "Net-(C1-Pad2)" "Net-(C2-Pad2)" "Net-(C3-Pad1)" "Net-(C3-Pad2)" "Net-(C4-Pad1)"
+    "Net-(C4-Pad2)" "Net-(C5-Pad1)" "Net-(C5-Pad2)" "Net-(C6-Pad1)" "Net-(C6-Pad2)" "Net-(C25-Pad1)" "Net-(C30-Pad1)" "Net-(C35-Pad1)"
+    "Net-(C40-Pad1)" "Net-(C45-Pad1)" "Net-(C50-Pad1)" "Net-(JP1-Pad1)" "/Connectors/Alternative_5V_input" "/Connectors/Neutral1_In" "Net-(L15-Pad2)" "Net-(L16-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+  (class 220v
+    (clearance_class 220v)
+    (via_rule 220v)
+    (rule
+      (width 6985.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+  (class "220v low current"
+    "/Circuits_4_5_6/Phase3_Out" "/Circuits_1_2_3/Phase2_Out" "/Circuits_4_5_6/Phase2_Out" "/Circuits_1_2_3/Phase2_In" "/Circuits_1_2_3/Phase1_In" "/Circuits_1_2_3/Phase3_In" "/Circuits_4_5_6/Phase1_In" "/Circuits_4_5_6/Phase3_In"
+    "/Circuits_4_5_6/Phase2_In" "/Circuits_1_2_3/Phase1_Out" "/Circuits_1_2_3/Phase3_Out" "/Circuits_4_5_6/Phase1_Out"
+    (clearance_class "220v low current")
+    (via_rule 220v low current)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+  (class micro
+    GND +3.3VP +3.3VADC "Net-(C11-Pad1)" "Net-(C12-Pad1)" "/Circuits_4_5_6/Current1_AD" "/Circuits_4_5_6/Current2_AD" "/Circuits_4_5_6/Current3_AD"
+    "/Atxmega128a3 and support components 1/PA3" "/Atxmega128a3 and support components 1/PA4" "/Atxmega128a3 and support components 1/PA5" "/Circuits_1_2_3/Current1_AD" "/Circuits_1_2_3/Current2_AD" "/Circuits_1_2_3/Current3_AD" "/Atxmega128a3 and support components 1/TMS" "/Atxmega128a3 and support components 1/TDI"
+    "/Atxmega128a3 and support components 1/TCK" "/Atxmega128a3 and support components 1/TDO" "/Atxmega128a3 and support components 1/PC0-I2C-SDA" "/Atxmega128a3 and support components 1/PC1-I2C-SCL" "/Atxmega128a3 and support components 1/PC2" "/Atxmega128a3 and support components 1/PC3" "/Atxmega128a3 and support components 1/RESET" "/Atxmega128a3 and support components 1/PA0"
+    "/Atxmega128a3 and support components 1/PA1" "/Atxmega128a3 and support components 1/PA2" +3V3 "/Atxmega128a3 and support components 1/GNDA"
+    (clearance_class micro)
+    (via_rule micro)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+)
