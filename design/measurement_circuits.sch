@@ -53,9 +53,9 @@ S 1765 903  1025 1025
 U 55B216B6
 F0 "voltage" 60
 F1 "voltage.sch" 60
-F2 "Phase_In" I L 1765 1078 60 
-F3 "Voltage_AD" O R 2790 1673 60 
-F4 "Neutral_Filtered" I L 1765 1328 60 
+F2 "Voltage_AD" O R 2790 1673 60 
+F3 "Neutral_Filtered" I L 1765 1328 60 
+F4 "Phase_Line" I L 1765 1078 60 
 $EndSheet
 $Sheet
 S 1775 2315 990  965 
@@ -67,7 +67,7 @@ F3 "CT_2" I L 1775 2680 60
 F4 "CURRENT_AD" I R 2765 3105 60 
 $EndSheet
 Text HLabel 1690 1078 0    60   Input ~ 0
-Phase_ln
+Phase_Line
 Text HLabel 1640 2455 0    60   Input ~ 0
 CT1_1
 Text HLabel 1640 2680 0    60   Input ~ 0
