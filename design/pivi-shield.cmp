@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201504261001+5623~23~ubuntu15.04.1-product   date = Mon 27 Jul 2015 03:08:24 AM ART
+Cmp-Mod V01 Created by Cvpcb 0.201504261001+5623~23~ubuntu15.04.1-product   date = Tue 28 Jul 2015 04:12:17 PM ART
 
 BeginCmp
 TimeStamp = /548DF2C8/55B216B6/54C1942B;
@@ -162,10 +162,10 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55BADCD5/55BAE11C;
+TimeStamp = /549598FF/55BA51D0;
 Reference = D2;
 ValeurCmp = LED_RGB;
-IdModule  = ;
+IdModule  = LEDs:LED_RGB_PLLC-6;
 EndCmp
 
 BeginCmp
@@ -186,42 +186,42 @@ BeginCmp
 TimeStamp = /549598FF/55B659F5/55B1DCD2;
 Reference = J1;
 ValeurCmp = JACK_TRS_6PINS;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/55B37AF3/55B1DCD2;
 Reference = J2;
 ValeurCmp = JACK_TRS_6PINS;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/55B38046/55B1DCD2;
 Reference = J3;
 ValeurCmp = JACK_TRS_6PINS;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/55B38E62/55B1DCD2;
 Reference = J4;
 ValeurCmp = JACK_TRS_6PINS;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/55B38E6D/55B1DCD2;
 Reference = J5;
 ValeurCmp = JACK_TRS_6PINS;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/55B38E78/55B1DCD2;
 Reference = J6;
 ValeurCmp = JACK_TRS_6PINS;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
 EndCmp
 
 BeginCmp
@@ -568,23 +568,23 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55BADCD5/55BAE21D;
+TimeStamp = /549598FF/55BA6452;
 Reference = R36;
-ValeurCmp = 5K;
+ValeurCmp = 270;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55BADCD5/55BAE269;
+TimeStamp = /549598FF/55BA6613;
 Reference = R37;
-ValeurCmp = 5K;
+ValeurCmp = 270;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /55BADCD5/55BAE15E;
+TimeStamp = /549598FF/55BA674E;
 Reference = R38;
-ValeurCmp = 5K;
+ValeurCmp = 270;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 

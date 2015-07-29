@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -38,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 18
+Sheet 1 20
 Title "PIVI"
 Date "Mon 27 Jul 2015"
 Rev "2.0"
@@ -319,9 +318,11 @@ F16 "CURRENT_AD_3" I R 9645 3215 60
 F17 "CURRENT_AD_4" I R 9645 3410 60 
 F18 "CURRENT_AD_5" I R 9645 3605 60 
 F19 "CURRENT_AD_6" I R 9645 3800 60 
-F20 "Voltage_AD" I R 9645 2675 60 
-F21 "Neutral_Filtered" I L 7930 2840 60 
-F22 "Phase_Line" I L 7930 2655 60 
+F20 "Neutral_Filtered" I L 7930 2840 60 
+F21 "Phase_Line" I L 7930 2655 60 
+F22 "Voltage_AD_1" I R 9645 3975 60 
+F23 "Voltage_AD_2" I R 9645 4150 60 
+F24 "Voltage_AD_3" I R 9645 4350 60 
 $EndSheet
 Text Label 1125 5075 0    60   ~ 0
 Current_AD_1
@@ -329,9 +330,6 @@ Text Label 1130 5475 0    60   ~ 0
 Current_AD_5
 NoConn ~ 1350 6075
 NoConn ~ 1350 5975
-NoConn ~ 1350 5875
-NoConn ~ 1350 5775
-NoConn ~ 1350 5675
 Text Label 1075 1200 0    60   ~ 0
 Phase_Line
 Wire Wire Line
@@ -448,11 +446,9 @@ Wire Wire Line
 Wire Wire Line
 	1350 5975 1750 5975
 Wire Wire Line
-	1350 5875 1750 5875
+	1130 5875 1750 5875
 Wire Wire Line
-	1350 5775 1750 5775
-Wire Wire Line
-	1350 5675 1750 5675
+	1135 5675 1750 5675
 Wire Wire Line
 	3450 1200 4075 1200
 Wire Wire Line
@@ -493,10 +489,10 @@ Wire Wire Line
 	1675 2825 1075 2825
 Wire Wire Line
 	1675 2975 1075 2975
-Text Label 10345 2675 2    60   ~ 0
-Voltage_AD
+Text Label 10345 3975 2    60   ~ 0
+Voltage_AD_1
 Wire Wire Line
-	9645 2675 10345 2675
+	9645 3975 10345 3975
 Wire Wire Line
 	9645 2850 10345 2850
 Wire Wire Line
@@ -652,4 +648,20 @@ Text Label 1120 4680 0    60   ~ 0
 RESET
 Text Label 4070 2850 2    60   ~ 0
 RESET
+Text Label 10345 4150 2    60   ~ 0
+Voltage_AD_2
+Wire Wire Line
+	9645 4150 10345 4150
+Text Label 10345 4350 2    60   ~ 0
+Voltage_AD_3
+Wire Wire Line
+	9645 4350 10345 4350
+Text Label 1135 5675 0    60   ~ 0
+Voltage_AD_1
+Text Label 1130 5775 0    60   ~ 0
+Voltage_AD_2
+Text Label 1130 5875 0    60   ~ 0
+Voltage_AD_3
+Wire Wire Line
+	1750 5775 1130 5775
 $EndSCHEMATC

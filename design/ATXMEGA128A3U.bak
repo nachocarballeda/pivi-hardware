@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -38,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 18
+Sheet 2 20
 Title "PIVI"
 Date "Mon 27 Jul 2015"
 Rev "2.0"
@@ -887,16 +886,6 @@ Wire Wire Line
 	8350 3850 8350 3950
 Wire Wire Line
 	8350 4150 8350 4050
-Wire Notes Line
-	9425 3125 9425 4825
-Wire Notes Line
-	9425 4825 8125 4825
-Wire Notes Line
-	8125 4825 8125 3125
-Wire Notes Line
-	8125 3125 9425 3125
-Text Notes 8125 4950 0    60   ~ 0
-REVISAR ESTE SECTOR, RECONECTE LAS COSAS\n
 Text HLabel 4920 2530 0    60   Input ~ 0
 RESET
 Wire Wire Line

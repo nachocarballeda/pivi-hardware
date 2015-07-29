@@ -1,0 +1,33 @@
+Cantidad, Value, Footprint
+1,100,Resistors_SMD:R_0603
+3,270,Resistors_SMD:R_0603
+1,470,Resistors_SMD:R_0603
+9,100nF,Capacitors_SMD:C_0603
+19,10k,Resistors_SMD:R_0603
+2,10pF,Capacitors_SMD:C_0603
+2,10uF,Capacitors_SMD:C_0603
+6,10uF,Capacitors_SMD:C_0805
+1,10uH,Inductor_0805
+2,1uH,Inductors_NEOSID:Neosid_Inductor_SM-NE30_SMD1210
+4,1uH,Inductor_0603
+1,1uF,Capacitors_SMD:C_0603
+3,220k,Resistors_SMD:R_2512
+6,22R,Resistors_SMD:R_0603
+1,32.768kHz +/-20PPM 7pF SMD,Sparkfun:SparkFun-CRYSTAL-32KHZ-SMD_EPSON_MC146
+1,330nF,Capacitors_SMD:C_0603
+1,33uF,Capacitors_SMD:C_0805
+1,ATXMEGA128A3U-A,LESS:TQFP64_14X14MM
+1,BLM15BB221SN1,Resistors_SMD:R_0402
+1,CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02
+1,CONN_01X02,LESS:CONN-TERM-BLK-2POS-PHOENIX
+1,CONN_02X05,Pin_Headers:Pin_Header_Straight_2x05
+1,CONN_02X20,LESS:Pin_Header_Straight_2x20_SMD
+6,JACK_TRS_6PINS,http://www.digikey.com/product-detail/en/SJ-3506-SMT-TR/CP-3506SJCT-ND/2625178
+1,JUMPER,Pin_Headers:Pin_Header_Straight_1x02
+1,JUMPER3,Pin_Headers:Pin_Header_Straight_1x03
+1,LED,LEDs:LED-0603
+1,LED_RGB,"
+http://www.digikey.com/product-detail/en/SMLV56RGB1W1/846-1000-2-ND/2273758"
+1,Recom_Power_RAC10-05SC/277,LESS:RAC10-xxSC-277
+1,TLV70233DBV,SMD_Packages:SOT-23-5
+2,Bornera tension linea,http://www.digikey.com/product-detail/en/1792229/277-9886-ND/4357164
