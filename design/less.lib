@@ -817,7 +817,7 @@ ENDDEF
 #
 # sj-3503-smt
 #
-DEF sj-3503-smt U 0 40 Y Y 5 F N
+DEF sj-3503-smt U 0 40 Y Y 1 F N
 F0 "U" -75 -425 60 H V C CNN
 F1 "sj-3503-smt" 150 250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
@@ -838,26 +838,6 @@ X tip 2 -175 -300 200 R 50 50 1 1 I
 X ring 3 -175 0 200 R 50 50 1 1 I
 X tip_switch 4 -175 -200 200 R 50 50 1 1 I
 X ring_switch 5 -175 -100 200 R 50 50 1 1 I
-X sleeve 1 -175 100 200 R 50 50 2 1 I
-X tip 2 -175 -300 200 R 50 50 2 1 I
-X ring 3 -175 0 200 R 50 50 2 1 I
-X tip_switch 4 -175 -200 200 R 50 50 2 1 I
-X ring_switch ~ -175 -100 200 R 50 50 2 1 I
-X sleeve 1 -175 100 200 R 50 50 3 1 I
-X tip 2 -175 -300 200 R 50 50 3 1 I
-X ring 3 -175 0 200 R 50 50 3 1 I
-X tip_switch 4 -175 -200 200 R 50 50 3 1 I
-X ring_switch ~ -175 -100 200 R 50 50 3 1 I
-X sleeve 1 -175 100 200 R 50 50 4 1 I
-X tip 2 -175 -300 200 R 50 50 4 1 I
-X ring 3 -175 0 200 R 50 50 4 1 I
-X tip_switch 4 -175 -200 200 R 50 50 4 1 I
-X ring_switch ~ -175 -100 200 R 50 50 4 1 I
-X sleeve 1 -175 100 200 R 50 50 5 1 I
-X tip 2 -175 -300 200 R 50 50 5 1 I
-X ring 3 -175 0 200 R 50 50 5 1 I
-X tip_switch 4 -175 -200 200 R 50 50 5 1 I
-X ring_switch ~ -175 -100 200 R 50 50 5 1 I
 ENDDRAW
 ENDDEF
 #
